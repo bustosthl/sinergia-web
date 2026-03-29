@@ -3,7 +3,6 @@ title: ""
 page-layout: custom
 section-divs: false
 toc: false
-css: styles.scss
 ---
 
 ::: {.hero-splash #inicio}
