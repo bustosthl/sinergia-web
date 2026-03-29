@@ -1,0 +1,52 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - assets/**
+
+website:
+  title: "Sinergia Consultora"
+  search: false
+  favicon: "assets/favicon.png"
+  open-graph: 
+    image: "assets/logo.jpg"
+    description: "Culturas laborales diversas e inclusivas."
+  twitter-card: 
+    image: "assets/images/logo.jpg"
+
+  navbar:
+    background: light
+    foreground: dark
+    pinned: true
+    right:
+      - text: "Inicio"
+        href: "#presentacion"
+      - text: "Nosotras"
+        href: "#nosotras"
+      - text: "Servicios"
+        href: "#servicios"
+      - text: "Equipo"
+        href: "#equipo"
+      - text: "Contacto"
+        href: "#contacto"
+  page-footer:
+    left: "Sinergia Consultora"
+    right: "Landing desarrollada en Quarto"
+    center: "  [Encontranos en Linkedin](https://www.linkedin.com/in/sinergia-consultora-3239903b3/){.bi-linkedin}"
+
+format:
+  html:
+    theme:
+      - cosmo
+
+    toc: false
+    smooth-scroll: true
+    page-layout: full
+    anchor-sections: true
+    link-external-newwindow: true
+    include-in-header:
+      text: |
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Sinergia Consultora acompaña a organizaciones en procesos de diversidad, equidad e inclusión con una mirada interdisciplinaria e interseccional." />
+
+lang: es
