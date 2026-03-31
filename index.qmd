@@ -220,7 +220,7 @@ Si querés recibir una propuesta, coordinar una reunión o hacer una consulta, d
 
 :::
 
-<form action="https://formspree.io/f/xzdkeqpp" method="POST" class="contact-form">
+<form action="https://formspree.io/f/xnjovder" method="POST" class="contact-form">
   <label for="nombre">Nombre</label>
   <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
 
@@ -236,12 +236,10 @@ Si querés recibir una propuesta, coordinar una reunión o hacer una consulta, d
   <button type="submit" class="btn-brand">Enviar consulta</button>
 </form>
 
-
-
-<a href="https://wa.me/5491162910309" 
-   class="whatsapp-float" 
-   target="_blank" 
-   aria-label="Contactar por WhatsApp">
+<a href="https://wa.me/5491131749053?text=Hola!%20Me%20gustaría%20tener%20más%20información"
+  class="whatsapp-float" 
+  target="_blank" 
+  aria-label="Contactar por WhatsApp">
   📞
 </a>
 
