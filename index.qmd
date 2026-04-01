@@ -6,12 +6,10 @@ toc: false
 ---
 
 ::: {.hero-splash #inicio}
-::: {.splash-container}
 
 <div class="logo-svg">
   <img src="assets/sinergia-logo-full-white.svg" alt="Sinergia">
 </div>
-:::
 :::
 
 ::: {.hero #presentacion}
