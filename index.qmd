@@ -20,7 +20,7 @@ toc: false
 
 Diversidad, equidad e inclusión  
 
-# Culturas laborales más justas, sostenibles y con impacto real.
+# Culturas laborales equitativas, sostenibles y con impacto real
 
 Sinergia acompaña a empresas, organizaciones e instituciones en procesos de transformación que reconocen la diversidad como un valor estratégico. La propuesta combina una mirada interdisciplinaria e interseccional con herramientas concretas para construir entornos de trabajo más seguros, respetuosos e inclusivos.
 
@@ -31,9 +31,9 @@ Sinergia acompaña a empresas, organizaciones e instituciones en procesos de tra
 
 ::: {.hero-panel}
 
-### Propuesta de valor
+### Nuestra propuesta
 
-Planificación con propósito e inclusión con sostenibilidad.
+Planificación con propósito e inclusión con sostenibilidad: diseñamos acciones a medida y alineadas con los estándares de Diversidad, Equidad e Inclusión.
 
 ::: {.mini-pillars}
 Diagnóstico  
@@ -58,7 +58,7 @@ Responsabilidad social
 NOSOTRAS
 :::
 
-## Una consultora que articula misión, visión y acción.
+## Una consultora que articula misión, visión y acción
 
 :::
 
@@ -79,11 +79,7 @@ Acompañamos a organizaciones en la construcción de entornos laborales más jus
 Trabajamos con una perspectiva interseccional y situada, reconociendo la complejidad de las trayectorias laborales y personales. Desde un enfoque profesional e interdisciplinario, promovemos culturas organizacionales sensibles a las dinámicas sociales, económicas y culturales, alineadas con estándares de diversidad, equidad e inclusión.
 
 :::
-
-:::
-
-::: {.band}
-**Abordaje propuesto:** una intervención situada, sensible al contexto de cada organización y enfocada en cambios sostenibles, no solo en acciones aisladas.
+<div><br></br></div>
 :::
 
 ::: {.values-grid}
@@ -109,6 +105,7 @@ Planificación estratégica con impacto social concreto, conectando cultura orga
 :::
 
 :::
+<div><br></br></div>
 :::
 
 ::: {.section .section-warm}
@@ -121,7 +118,7 @@ Planificación estratégica con impacto social concreto, conectando cultura orga
 QUE OFRECEMOS
 :::
 
-## Servicios adaptables a cada nivel organizacional.
+## Servicios adaptables a cada nivel organizacional
 
 :::
 
@@ -165,6 +162,7 @@ Desarrollamos iniciativas de responsabilidad social con impacto real, fortalecie
 :::
 
 :::
+<div><br></br></div>
 :::
 
 ::: {.section .section-cool}
@@ -176,9 +174,11 @@ Desarrollamos iniciativas de responsabilidad social con impacto real, fortalecie
 QUIENES SOMOS
 :::
 
-## Un equipo con trayectoria académica, institucional y de intervención.
+## Equipo SINERGIA
 
-La sección final traduce las fichas del brochure a un formato más web, con imagen, especialidad y bio resumida.
+Articulamos trayectoria académica con recorrido institucional e intervenciones territoriales.
+
+[Encontranos también en LinkedIn.](https://www.linkedin.com/in/sinergia-consultora-3239903b3/){.btn-brand}  
 
 :::
 
@@ -193,6 +193,8 @@ La sección final traduce las fichas del brochure a un formato más web, con ima
 
 Psicóloga (UBA) y Magíster en Estudios y Políticas de Género (UNTREF). Docente universitaria. Acompaña a personas en contextos laborales críticos y coordina acciones de formación y sensibilización en organizaciones, universidades e instituciones públicas. Se especializa en derechos sexuales, violencia de género y políticas de inclusión.
 
+[LinkedIn](https://www.linkedin.com/in/mariana-rosende-394b33179/){.btn-ghost}  
+
 :::
 
 ::: {.team-card}
@@ -204,11 +206,14 @@ Psicóloga (UBA) y Magíster en Estudios y Políticas de Género (UNTREF). Docen
 
 Trabajadora Social (UBA), Magíster en Estudios y Políticas de Género (UNTREF) y Doctora en Antropología (UBA). Especialista en investigación con enfoque interseccional, docente universitaria y consultora independiente en género, diversidad y discriminación. Cuenta con experiencia en gestión institucional e implementación de proyectos de impacto social.
 
-:::
+[LinkedIn](https://www.linkedin.com/in/yanina-kaplan-7a1730215/){.btn-ghost}  
 
 :::
 
 :::
+
+:::
+<div><br></br></div>
 :::
 
 ::: {.section .section-lilac #contacto}
@@ -240,7 +245,7 @@ Si querés recibir una propuesta, coordinar una reunión o hacer una consulta, d
   <button type="submit" class="btn-brand">Enviar consulta</button>
 </form>
 
-<a href="https://wa.me/5491131749053?text=Hola!%20Me%20gustaría%20tener%20más%20información"
+<a href="https://wa.me/5491131749053?text=Hola%20Sinergia%2C%20vi%20su%20p%C3%A1gina%20web%20y%20me%20gustar%C3%ADa%20hacer%20una%20consulta.%20Mi%20nombre%20es%0A"
   class="whatsapp-float" 
   target="_blank" 
   aria-label="Contactar por WhatsApp">

@@ -1,0 +1,42 @@
+---
+title: ""
+page-layout: custom
+listing:
+  id: informes-listing
+  contents: informes.yml
+  type: grid
+  sort: "date desc"
+  grid-columns: 3
+  image-height: 250px
+  fields: [image, title, subtitle, date]
+---
+
+::: {.section .section-cool style="padding-top: 100px;"}
+::: {.section-wrap}
+::: {.section-heading}
+::: {.section-kicker}
+RECURSOS
+:::
+## Informes, charlas y material de consulta
+Explorá nuestra producción académica y técnica sobre equidad y diversidad.
+:::
+:::
+<div><br></br></div>
+:::
+
+::: {.section .section-soft}
+::: {.section-wrap}
+
+::: {#informes-listing}
+:::
+
+:::
+:::
+
+::: {.section .section-warm}
+::: {.section-wrap .text-center}
+### ¿Necesitás un informe a medida para tu organización?
+[Contactanos por WhatsApp](https://wa.me/5491131749053?text=Hola%20Sinergia%2C%20me%20interesan%20sus%20informes){.btn-brand}
+:::
+<div><br></br></div>
+:::

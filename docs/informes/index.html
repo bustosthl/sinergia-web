@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Sinergia Consultora</title>
+<title>index – Sinergia Consultora</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,18 +23,20 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<link href="./assets/favicon.png" rel="icon" type="image/png">
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<link href="../assets/favicon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "Sin resultados",
@@ -50,17 +52,75 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Buscar"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-informes-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-subtitle","listing-date","listing-image","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-informes-listing'] = new List('listing-informes-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Sinergia Consultora acompaña a organizaciones en procesos de diversidad, equidad e inclusión con una mirada interdisciplinaria e interseccional.">
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <meta property="og:title" content="– Sinergia Consultora">
 <meta property="og:description" content="Culturas laborales diversas e inclusivas.">
-<meta property="og:image" content="https://bustosthl.github.io/sinergia-web/assets/logo.jpg">
+<meta property="og:image" content="https://bustosthl.github.io/sinergia-web/informes/assets/logo.jpg">
 <meta property="og:site_name" content="Sinergia Consultora">
 <meta name="twitter:title" content="– Sinergia Consultora">
-<meta name="twitter:image" content="https://bustosthl.github.io/sinergia-web/assets/images/logo.jpg">
+<meta name="twitter:image" content="https://bustosthl.github.io/sinergia-web/informes/assets/images/logo.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -71,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Sinergia Consultora</span>
     </a>
   </div>
@@ -81,27 +141,27 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./#presentacion"> 
+    <a class="nav-link" href="../#presentacion"> 
 <span class="menu-text">Inicio</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./#nosotras"> 
+    <a class="nav-link" href="../#nosotras"> 
 <span class="menu-text">Nosotras</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./#servicios"> 
+    <a class="nav-link" href="../#servicios"> 
 <span class="menu-text">Servicios</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./#equipo"> 
+    <a class="nav-link" href="../#equipo"> 
 <span class="menu-text">Equipo</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./informes/index.html"> 
+    <a class="nav-link active" href="../informes/index.html" aria-current="page"> 
 <span class="menu-text">Informes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./#contacto"> 
+    <a class="nav-link" href="../#contacto"> 
 <span class="menu-text">Contacto</span></a>
   </li>  
 </ul>
@@ -120,157 +180,65 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div id="inicio" class="hero-splash">
-<div class="logo-svg">
-<p><img src="assets/sinergia-logo-full-white.svg" alt="Sinergia"></p>
+<section class="section-cool" style="padding-top: 100px;">
+<div class="section-wrap">
+<div class="section-heading">
+<div class="section-kicker">
+<p>RECURSOS</p>
 </div>
-</div>
-<div id="presentacion" class="hero">
-<div class="hero-grid">
-<div class="hero-copy">
-<p>Diversidad, equidad e inclusión</p>
-<h1 id="culturas-laborales-equitativas-sostenibles-y-con-impacto-real">Culturas laborales equitativas, sostenibles y con impacto real</h1>
-<p>Sinergia acompaña a empresas, organizaciones e instituciones en procesos de transformación que reconocen la diversidad como un valor estratégico. La propuesta combina una mirada interdisciplinaria e interseccional con herramientas concretas para construir entornos de trabajo más seguros, respetuosos e inclusivos.</p>
-<p><a href="#servicios" class="btn-brand">Ver servicios</a><br>
-<a href="#equipo" class="btn-ghost">Conocer al equipo</a></p>
-</div>
-<section id="nuestra-propuesta" class="hero-panel">
-<h3>Nuestra propuesta</h3>
-<p>Planificación con propósito e inclusión con sostenibilidad: diseñamos acciones a medida y alineadas con los estándares de Diversidad, Equidad e Inclusión.</p>
-<div class="mini-pillars">
-<p>Diagnóstico<br>
-Capacitación<br>
-Políticas DEI<br>
-Responsabilidad social</p>
-</div>
+<section id="informes-charlas-y-material-de-consulta" class="level2">
+<h2 data-anchor-id="informes-charlas-y-material-de-consulta">Informes, charlas y material de consulta</h2>
+<p>Explorá nuestra producción académica y técnica sobre equidad y diversidad.</p>
 </section>
 </div>
 </div>
+<div>
+<br><br>
+</div>
+</section>
 <section class="section-soft">
 <div class="section-wrap">
-<div id="nosotras" class="section-heading">
-<div class="section-kicker">
-<p>NOSOTRAS</p>
+<div id="listing-informes-listing" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="informe" data-listing-date-sort="1772334000000">
+<a href="pdfs/informe_8m.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="pdfs/informe_8m_portada.png" class="thumbnail-image card-img" style="height: 250px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Desigualdad de género en el trabajo
+</h5>
+<div class="card-subtitle listing-subtitle">
+desafíos estructurales y claves estratégicas para las organizaciones
 </div>
-<h2 id="una-consultora-que-articula-misión-visión-y-acción">Una consultora que articula misión, visión y acción</h2>
-</div>
-<div class="grid-2">
-<section id="nuestra-misión" class="card-soft">
-<h3>Nuestra misión</h3>
-<p>Acompañamos a organizaciones en la construcción de entornos laborales más justos, equitativos y sostenibles. Abordamos problemáticas como el mal clima laboral, la discriminación y los sesgos inconscientes. Trabajamos en la incorporación de políticas inclusivas y promovemos acciones de responsabilidad social con impacto real.</p>
-</section>
-<section id="nuestra-visión" class="card-soft">
-<h3>Nuestra visión</h3>
-<p>Trabajamos con una perspectiva interseccional y situada, reconociendo la complejidad de las trayectorias laborales y personales. Desde un enfoque profesional e interdisciplinario, promovemos culturas organizacionales sensibles a las dinámicas sociales, económicas y culturales, alineadas con estándares de diversidad, equidad e inclusión.</p>
-</section>
-<div>
-<br><br>
-</div>
-</div>
-<div class="values-grid">
-<section id="inclusión" class="value-card orange">
-<h3>Inclusión</h3>
-<p>Diseño de procesos y espacios que amplían la participación, revisan barreras y fortalecen la convivencia institucional.</p>
-</section>
-<section id="sostenibilidad" class="value-card pink">
-<h3>Sostenibilidad</h3>
-<p>Transformaciones que pueden sostenerse en el tiempo mediante políticas, protocolos, formación y acompañamiento.</p>
-</section>
-<section id="propósito" class="value-card blue">
-<h3>Propósito</h3>
-<p>Planificación estratégica con impacto social concreto, conectando cultura organizacional, derechos y responsabilidad institucional.</p>
-</section>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+1 mar 2026
 </div>
 </div>
-<div>
-<br><br>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No hay resultados
+</div>
+</div>
 </div>
 </section>
 <section class="section-warm">
-<div class="section-wrap">
-<div id="servicios" class="section-heading">
-<div class="section-kicker">
-<p>QUE OFRECEMOS</p>
-</div>
-<h2 id="servicios-adaptables-a-cada-nivel-organizacional">Servicios adaptables a cada nivel organizacional</h2>
-</div>
-<div class="services-grid">
-<section id="diagnósticos-situados-e-informes-técnicos" class="service-card pink">
-<h3>Diagnósticos situados e informes técnicos</h3>
-<p>Evaluamos el grado de diversidad, equidad e inclusión en cada organización a través de diagnósticos personalizados, investigaciones e informes con enfoque interseccional.</p>
+<section id="necesitás-un-informe-a-medida-para-tu-organización" class="level3 section-wrap text-center">
+<h3 data-anchor-id="necesitás-un-informe-a-medida-para-tu-organización">¿Necesitás un informe a medida para tu organización?</h3>
+<p><a href="https://wa.me/5491131749053?text=Hola%20Sinergia%2C%20me%20interesan%20sus%20informes" class="btn-brand">Contactanos por WhatsApp</a></p>
 </section>
-<section id="formación-capacitación-y-sensibilización" class="service-card orange">
-<h3>Formación, capacitación y sensibilización</h3>
-<p>Diseñamos espacios formativos adaptados a cada nivel organizacional para promover culturas laborales más inclusivas y conscientes.</p>
-</section>
-<section id="abordaje-integral-de-situaciones-de-violencia-yo-discriminación" class="service-card blue">
-<h3>Abordaje integral de situaciones de violencia y/o discriminación</h3>
-<p>Acompañamos la prevención, detección y atención de estas problemáticas mediante protocolos, asesoramiento y espacios confidenciales de escucha.</p>
-</section>
-<section id="asesoramiento-e-implementación-de-políticas-dei" class="service-card purple">
-<h3>Asesoramiento e implementación de políticas DEI</h3>
-<p>Apoyamos a las organizaciones en el diseño e implementación de políticas inclusivas y sostenibles, con enfoque de derechos y equidad.</p>
-</section>
-<section id="diseño-y-gestión-de-proyectos-de-responsabilidad-social" class="service-card pink">
-<h3>Diseño y gestión de proyectos de responsabilidad social</h3>
-<p>Desarrollamos iniciativas de responsabilidad social con impacto real, fortaleciendo el vínculo entre organizaciones y comunidades.</p>
-</section>
-</div>
-</div>
 <div>
 <br><br>
 </div>
 </section>
-<section class="section-cool">
-<div class="section-wrap">
-<div id="equipo" class="section-heading">
-<div class="section-kicker">
-<p>QUIENES SOMOS</p>
-</div>
-<h2 id="equipo-sinergia">Equipo SINERGIA</h2>
-<p>Articulamos trayectoria académica con recorrido institucional e intervenciones territoriales.</p>
-<p><a href="https://www.linkedin.com/in/sinergia-consultora-3239903b3/" class="btn-brand">Encontranos también en LinkedIn.</a></p>
-</div>
-<div class="team-grid">
-<div class="team-card">
-<p><img src="assets/mari.jpg" class="img-fluid"></p>
-<h3 id="mariana">Mariana</h3>
-<p><strong>Psicología, formación y políticas de inclusión</strong></p>
-<p>Psicóloga (UBA) y Magíster en Estudios y Políticas de Género (UNTREF). Docente universitaria. Acompaña a personas en contextos laborales críticos y coordina acciones de formación y sensibilización en organizaciones, universidades e instituciones públicas. Se especializa en derechos sexuales, violencia de género y políticas de inclusión.</p>
-<p><a href="https://www.linkedin.com/in/mariana-rosende-394b33179/" class="btn-ghost">LinkedIn</a></p>
-</div>
-<div class="team-card">
-<p><img src="assets/yani.jpg" class="img-fluid"></p>
-<h3 id="yanina">Yanina</h3>
-<p><strong>Investigación, gestión institucional e impacto social</strong></p>
-<p>Trabajadora Social (UBA), Magíster en Estudios y Políticas de Género (UNTREF) y Doctora en Antropología (UBA). Especialista en investigación con enfoque interseccional, docente universitaria y consultora independiente en género, diversidad y discriminación. Cuenta con experiencia en gestión institucional e implementación de proyectos de impacto social.</p>
-<p><a href="https://www.linkedin.com/in/yanina-kaplan-7a1730215/" class="btn-ghost">LinkedIn</a></p>
-</div>
-</div>
-</div>
-<div>
-<br><br>
-</div>
-</section>
-<section id="contacto" class="section-lilac">
-<div class="section-wrap">
-<section id="conversemos" class="section-heading">
-<h2>Conversemos</h2>
-<p>Si querés recibir una propuesta, coordinar una reunión o hacer una consulta, dejanos tus datos y te contactamos.</p>
-</section>
-<form action="https://formspree.io/f/xnjovder" method="POST" class="contact-form">
-<p><label for="nombre">Nombre</label> <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required=""></p>
-<p><label for="organizacion">Organización</label> <input type="text" id="organizacion" name="organizacion" placeholder="Nombre de la organización"></p>
-<p><label for="email">Email</label> <input type="email" id="email" name="email" placeholder="tuemail@ejemplo.com" required=""></p>
-<label for="mensaje">Mensaje</label>
-<textarea id="mensaje" name="mensaje" rows="6" placeholder="Contanos brevemente qué necesitás" required=""></textarea>
-<button type="submit" class="btn-brand">
-Enviar consulta
-</button>
-</form>
-<p><a href="https://wa.me/5491131749053?text=Hola%20Sinergia%2C%20vi%20su%20p%C3%A1gina%20web%20y%20me%20gustar%C3%ADa%20hacer%20una%20consulta.%20Mi%20nombre%20es%0A" class="whatsapp-float" target="_blank" aria-label="Contactar por WhatsApp"> 📞 </a></p>
-</div>
-</section>
+
 
 
 
@@ -718,5 +686,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

@@ -29,6 +29,8 @@ website:
         href: "#servicios"
       - text: "Equipo"
         href: "#equipo"
+      - text: "Informes"
+        href: informes/index.qmd
       - text: "Contacto"
         href: "#contacto"
   page-footer:
