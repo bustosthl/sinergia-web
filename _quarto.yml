@@ -35,8 +35,7 @@ website:
         href: "#contacto"
   page-footer:
     left: "Sinergia Consultora"
-    right: "Landing desarrollada en Quarto"
-    center: "  [Encontranos en Linkedin](https://www.linkedin.com/in/sinergia-consultora-3239903b3/){.bi-linkedin}"
+    right: "  [Encontranos en Linkedin](https://www.linkedin.com/in/sinergia-consultora-3239903b3/){.bi-linkedin}"
 
 format:
   html:
