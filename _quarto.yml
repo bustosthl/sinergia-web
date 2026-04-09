@@ -11,6 +11,7 @@ website:
   site-url: "https://bustosthl.github.io/sinergia-web/"
   search: false
   favicon: "assets/favicon.png"
+  google-analytics: "G-6JHLQB2LDM"
   open-graph: 
     image: "assets/logo.jpg"
     description: "Culturas laborales diversas e inclusivas."
