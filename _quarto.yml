@@ -9,7 +9,6 @@ project:
 website:
   title: "Sinergia Consultora"
   site-url: "https://bustosthl.github.io/sinergia-web/"
-  google-analytics: "G-6JHLQB2LDM"
   search: false
   favicon: "assets/favicon.png"
   google-analytics: "G-6JHLQB2LDM"
